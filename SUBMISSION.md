@@ -25,19 +25,28 @@ Tai khoan AWS chi cho phep Free Tier instance, nen `r5.2xlarge` bi AWS tu choi. 
 - Inference latency 1 row: 1.3343 ms
 - Inference throughput 1000 rows: 458,910.32 rows/s
 
+## Cau truc repo
+
+- `evidence/screenshots/`: anh minh chung.
+- `results/`: ket qua benchmark va output Terraform/EC2.
+- `reports/`: bao cao ngan.
+- `terraform/`: ma nguon Terraform va benchmark script.
+- `deliverables/`: file zip nop bai.
+
 ## Minh chung
 
-- `GPU quota.JPG`: GPU quota bang 0 va request 4 vCPU dang `Case Opened`.
-- `EC2 instance.JPG`: EC2 CPU node dang chay.
-- `benchmark.JPG`: ket qua `benchmark_result.json`.
-- `benchmark-2.JPG`: log LightGBM benchmark.
-- `command ID.JPG`: AWS Systems Manager command thanh cong.
-- `bill.JPG`: AWS Billing/Bills.
+- `evidence/screenshots/01_gpu_quota_case_opened.jpg`: GPU quota bang 0 va request 4 vCPU dang `Case Opened`.
+- `evidence/screenshots/02_ec2_cpu_instance_running.jpg`: EC2 CPU node dang chay.
+- `evidence/screenshots/03_benchmark_result_json.jpg`: ket qua `benchmark_result.json`.
+- `evidence/screenshots/04_benchmark_terminal_output.jpg`: log LightGBM benchmark.
+- `evidence/screenshots/05_ssm_run_command_success.jpg`: AWS Systems Manager command thanh cong.
+- `evidence/screenshots/06_aws_billing_services.jpg`: AWS Billing/Bills.
 
 ## File chinh
 
 - `terraform/`: ma nguon Terraform da chinh cho CPU fallback.
 - `terraform/benchmark.py`: benchmark LightGBM.
-- `benchmark_result.json`: metrics day du.
-- `benchmark_stdout.txt`: output benchmark.
-- `cpu_fallback_report.md`: bao cao ngan.
+- `results/benchmark_result.json`: metrics day du.
+- `results/benchmark_stdout.txt`: output benchmark.
+- `reports/cpu_fallback_report.md`: bao cao ngan.
+- `deliverables/day16_cpu_fallback_submission.zip`: goi nop bai.

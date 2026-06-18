@@ -11,5 +11,5 @@ Benchmark su dung LightGBM voi dataset Kaggle `mlg-ulb/creditcardfraud`, file `c
 Ket qua: load data 2.8524s, training 3.2048s, best iteration 19, AUC-ROC 0.949838, accuracy 0.996032.
 F1-score dat 0.429293, precision 0.285235, recall 0.867347.
 Inference latency cho 1 dong la 1.3343 ms; throughput cho 1000 dong la 458,910.32 rows/s.
-Ket qua chi tiet da duoc luu trong `benchmark_result.json`; log terminal nam trong `benchmark_stdout.txt`.
+Ket qua chi tiet da duoc luu trong `results/benchmark_result.json`; log terminal nam trong `results/benchmark_stdout.txt`.
 Sau khi chup man hinh va nop bai, can chay `terraform destroy` ngay de xoa NAT Gateway, ALB va EC2.
