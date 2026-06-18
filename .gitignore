@@ -4,6 +4,10 @@
 *.tfstate.*
 crash.log
 crash.*.log
+*.tfplan
+tfplan*
+**/__pycache__/
+*.pyc
 *.tfvars
 *.tfvars.json
 override.tf
@@ -20,3 +24,9 @@ lab-key.pub
 # Environment Variables
 .env
 .env.local
+
+# AWS access key exports
+*_accessKeys.csv
+
+# Kaggle API credentials
+kaggle.json

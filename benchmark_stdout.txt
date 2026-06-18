@@ -1,0 +1,31 @@
+﻿[LightGBM] [Info] Number of positive: 394, number of negative: 227451
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.061752 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7650
+[LightGBM] [Info] Number of data points in the train set: 227845, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+[LightGBM] [Info] Start training from score 0.000000
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[19]	valid_0's auc: 0.949838	valid_0's binary_logloss: 0.219917
+Day16 CPU LightGBM benchmark complete
+{
+  "dataset_source": "csv:creditcard.csv",
+  "rows": 284807,
+  "features": 30,
+  "positive_rate": 0.001727485630620034,
+  "load_data_seconds": 2.8524,
+  "training_seconds": 3.2048,
+  "best_iteration": 19,
+  "auc_roc": 0.949838,
+  "accuracy": 0.996032,
+  "f1_score": 0.429293,
+  "precision": 0.285235,
+  "recall": 0.867347,
+  "inference_latency_1_row_ms": 1.3343,
+  "inference_throughput_1000_rows_per_second": 458910.32,
+  "total_seconds": 6.385,
+  "python": "3.9.25",
+  "machine": "x86_64"
+}
+
